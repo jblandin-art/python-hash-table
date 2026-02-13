@@ -1,5 +1,3 @@
-** start of main.py **
-
 class HashTable:
     def __init__(self):
         self.collection = {}
@@ -27,7 +25,6 @@ class HashTable:
         if hashed_key in self.collection:
             return self.collection[hashed_key][key]
         else:
-            return None
 
-** end of main.py **
+            return None
 
